@@ -1,0 +1,10 @@
+[ZhouJiaJia@localhost Github_save_code]$ git clone https://github.com/jiajia0803/shiyanlou-code.git                       #在Github创建一个空仓库，把他克隆到Github_save_code文件中"
+[ZhouJiaJia@localhost Github_save_code]$ git config --global user.name "jiajia0803"                                       #配置Github名称"
+[ZhouJiaJia@localhost Github_save_code]$ git config --global user.email "zhoujiajia1993ze@163.com"                        #配置邮箱"
+                                                                                                                          #需要将提交文件放到本地仓库后，再进行下面步骤
+[ZhouJiaJia@localhost Github_save_code]$ git add README.md                                                                #将待提交文件‘README.md’放置暂存区"
+[ZhouJiaJia@localhost Github_save_code]$ git commit -m "first commit"                                                     #向远程提交文件。"first commit"‘’是提交的备注信息"
+[ZhouJiaJia@localhost Github_save_code]$ git remote add origin https://github.com/jiajia0803/shiyanlou-code.git           #连接到Github仓库”
+[ZhouJiaJia@localhost Github_save_code]$ git push origin master                                                           #使用push 可以把本地仓库推送到远端仓库中"
+[ZhouJiaJia@localhost Github_save_code]$jiajia0803                                                                        #输入Github名称"
+[ZhouJiaJia@localhost Github_save_code]$****************                                                                  #输入密码"
